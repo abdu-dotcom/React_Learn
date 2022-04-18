@@ -6,6 +6,7 @@ class List extends React.Component {
         return (
             <div>
                 <h2> List Component</h2>
+                <h3>{this.props.date}</h3>
                 <ListItem/> 
             </div>
         )
